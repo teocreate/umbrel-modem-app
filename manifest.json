@@ -4,7 +4,7 @@
   "name": "Modem SMS Manager",
   "version": "0.1.0",
   "description": "Manage SMS and calls via a USB modem.",
-  "repository": "https://github.com/your-username/umbrel-modem-app",
+  "repository": "https://github.com/teocreate/umbrel-modem-app",
   "license": "MIT",
   "categories": ["tools"],
   "type": "web-app",
@@ -12,7 +12,7 @@
   "path": "/",
   "healthcheck": "/",
   "developer": {
-    "name": "Your Name",
-    "email": "your-email@example.com"
+    "name": "Teo",
+    "email": "no-reply@example.com"
   }
 }
