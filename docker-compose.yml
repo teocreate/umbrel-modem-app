@@ -1,0 +1,16 @@
+
+version: "3.7"
+services:
+  modem-server:
+    build: .
+    container_name: modem-server
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
+    volumes:
+      - umbrel-modem-data:/data
+
+volumes:
+  umbrel-modem-data:
